@@ -1,7 +1,7 @@
 # Simple Linear Regression
 
 # Importing the dataset
-dataset = read.csv('Salary_Data.csv')
+dataset = read.csv('50_Startups.csv')
 
 # Splitting the dataset into the Training set and Test set
 # install.packages('caTools')

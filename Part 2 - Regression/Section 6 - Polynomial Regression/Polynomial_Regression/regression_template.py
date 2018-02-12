@@ -1,3 +1,4 @@
+#regression template
 # Polynomial Regression
 
 # Importing the libraries
@@ -19,12 +20,6 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = 0.2, rando
 sc_X = StandardScaler()
 X_train = sc_X.fit_transform(X_train)
 X_test = sc_X.transform(X_test)"""
-
-#linear regression
-
-from sklearn.linear_model import LinearRegression
-lin_reg = LinearRegression()
-lin_reg.fit(X, y)
 
 #Polynomial Regression
 from sklearn.preprocessing import PolynomialFeatures
